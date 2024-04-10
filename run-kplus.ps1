@@ -1,3 +1,6 @@
+# script execution policy
+Set-ExecutionPolicy RemoteSigned -Force
+
 $choice = Read-Host "Do you want to run all 4 files? (Y/N)"
 
 if($choice -eq "Y") {
